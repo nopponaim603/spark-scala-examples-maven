@@ -8,7 +8,7 @@ object SparkSessionTest {
 
 
     val spark = SparkSession.builder()
-      .master("local[1]")
+      .master("local[*]")
       .appName("SparkByExample")
       .getOrCreate();
     
