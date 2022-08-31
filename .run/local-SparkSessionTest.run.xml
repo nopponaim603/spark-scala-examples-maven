@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="spark-to-master" type="SparkSubmitConfigurationType" factoryName="SparkJobConfigurationType" show_console_on_std_err="false" show_console_on_std_out="false">
+  <configuration default="false" name="local-SparkSessionTest" type="SparkSubmitConfigurationType" factoryName="SparkJobConfigurationType" show_console_on_std_err="false" show_console_on_std_out="false">
     <option name="allowRunningInParallel" value="false" />
     <option name="archives">
       <list />
@@ -57,7 +57,7 @@
     <option name="pyFiles">
       <list />
     </option>
-    <option name="pythonSdkPath" value="C:\Users\noppo\AppData\Local\Programs\Python\Python310\python.exe" />
+    <option name="pythonSdkPath" value="" />
     <option name="queue" value="" />
     <option name="repositories" value="" />
     <option name="selectedOptions">
