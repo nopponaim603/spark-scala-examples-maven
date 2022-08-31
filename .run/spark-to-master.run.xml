@@ -13,7 +13,7 @@
     </option>
     <option name="beforeShellScript" value="" />
     <option name="className" value="com.sparkbyexamples.spark.SparkSessionTest" />
-    <option name="clusterManager" value="STANDALONE" />
+    <option name="clusterManager" value="LOCAL" />
     <option name="conf" value="" />
     <option name="deployMode" value="CLUSTER" />
     <option name="driverClassPath">
@@ -42,7 +42,7 @@
         <option name="type" value="FILE" />
       </FilePath>
     </option>
-    <option name="master" value="spark://master:7077" />
+    <option name="master" value="local[*]" />
     <option name="numExecutors" value="" />
     <option name="packages" value="" />
     <option name="principal" value="" />
@@ -64,7 +64,7 @@
       <list />
     </option>
     <option name="shellExecutor" value="" />
-    <option name="sparkHome" value="$USER_HOME$/spark-3.1.3-bin-hadoop2.7" />
+    <option name="sparkHome" value="$USER_HOME$/spark-3.3.0-bin-hadoop3-scala2.13" />
     <option name="sparkMonitoringDriverId" value="" />
     <option name="supervise" value="false" />
     <option name="totalExecutorCores" value="" />
