@@ -4,7 +4,7 @@
     <option name="archives">
       <list />
     </option>
-    <option name="artifactArgs" value="" />
+    <option name="artifactArgs" value="--files $PROJECT_DIR$/src/main/resources/zipcodes.csv" />
     <option name="artifactPath">
       <FilePath>
         <option name="path" value="$PROJECT_DIR$/target/spark-scala-examples-1.0-SNAPSHOT.jar" />

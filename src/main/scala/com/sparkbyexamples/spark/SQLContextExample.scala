@@ -17,7 +17,6 @@ object SQLContextExample extends App {
   //read csv with options
   val df = sqlContext.read.options(Map("inferSchema"->"true","delimiter"->",","header"->"true"))
     .csv("src/main/resources/zipcodes.csv")
-
   df.show()
   df.printSchema()
 
