@@ -42,7 +42,7 @@
         <option name="type" value="FILE" />
       </FilePath>
     </option>
-    <option name="master" value="k8s://" />
+    <option name="master" value="k8s://https://kubernetes.docker.internal:6443" />
     <option name="numExecutors" value="" />
     <option name="packages" value="" />
     <option name="principal" value="" />
