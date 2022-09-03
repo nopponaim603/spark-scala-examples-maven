@@ -20,7 +20,7 @@ object KafkaProduceAvro {
      */
     val df = spark.readStream
       .format("kafka")
-      .option("kafka.bootstrap.servers", "192.168.1.100:9092")
+      .option("kafka.bootstrap.servers", "192.168.1.100:9092")  // Kafka ip or dns
       .option("subscribe", "json_topic")
       .option("startingOffsets", "earliest") // From starting
       .load()
